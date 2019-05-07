@@ -1,0 +1,30 @@
+{
+  "name": "firstnodejs",
+  "version": "1.0.0",
+  "description": "first node js application",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ClevelandRouge123/ToDoListNodeJs.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Cleveland Rouge",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ClevelandRouge123/ToDoListNodeJs/issues"
+  },
+  "homepage": "https://github.com/ClevelandRouge123/ToDoListNodeJs#readme",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
+}
